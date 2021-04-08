@@ -37,4 +37,4 @@ def build_vocab(data, path, min_occur=5):
             id2word.append(word)
     vocab_size = len(word2id)
     with open(path, 'wb') as f:
-        pickle.dump((vocab_size, word2id, id2word), f, pickle.HIGHEST_PROTOCOL)
+        pickle.dump((vocab_size, word2id, id2word), f, -1)
