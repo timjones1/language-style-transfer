@@ -1,3 +1,5 @@
+Update of code from this paper to work with python 3 as part of effort to create a baseline for text style transfer of offensive online content.
+
 # Language Style Transfer
 This repo contains the code and data of the following paper:
 
